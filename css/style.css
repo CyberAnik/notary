@@ -1,0 +1,295 @@
+/* header start */
+body{
+    font-family: sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+.wrapper{
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.logo{
+    width: 20%;
+    float: left;
+}
+.l-img img{
+    width: 100%;
+    margin-top: 10px;
+}
+.menu{
+    width: 70%;
+    float: right;
+} 
+.menu ul{
+    float: right; 
+}
+.menu ul li{
+    list-style-type: none;
+    float: left;
+    
+}
+.menu ul li a{
+    text-decoration: none;
+    padding: 20px 0 0 30px;
+    color: black;
+    font-size: 16px;
+    font-weight: 700;
+    display: inline-block;
+
+}
+.menu ul li a:hover{
+    color:#b8233b;
+}  
+/* header start */
+.banner{
+    width: 100%;
+    height: 600px;
+}
+.banner-wrapper{
+    padding: 138px 0;
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.b-h1{
+    margin-top: 0;
+    font-size: 40px;
+    color: white;
+}
+.b-text{
+    font-size: 16px;
+    color: white;
+    line-height: 25px;
+}
+.b-button{
+    margin-top: 25px;
+    padding: 10px 15px;
+    color: white;
+    background-color: #be243e;
+    border: none;
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+.common-section{
+    padding: 80px 0;
+}
+.common{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 60px;
+}
+.common p{
+    font-size: 16px;
+    line-height: 23px;
+}
+.service{
+    width: 70%;
+    overflow: hidden;
+    margin: 0 auto;  
+      
+}
+.b1{
+    float: left;
+    width: 33.33%;
+    text-align: center;
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+.workshop{
+    overflow: hidden;
+    background-color: #fafafa;
+}
+.workshop-wrapper{
+    width: 60%;
+    margin: 0 auto;
+    padding: 80px 0 80px 0; 
+    overflow: hidden;
+}
+.workshop-left{
+    float: left;
+    width: 40%;
+    padding-left: 45px;
+}
+.workshop-left h3{
+    margin: 0;
+    line-height: 32px;
+}
+.workshop-left p{
+    line-height: 25px;
+    font-size: 14px;
+}
+.workshop-left button{
+    background-color: #be243e;
+    color: white;
+    padding: 8px 17px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.workshop-right{
+    float: right;
+    width: 45%;
+    padding-right: 38px;
+}
+.workshop-right img{
+    width: 100%; height: 230px;
+}
+.feature-wrapper{
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: center;
+}
+.feature-wrapper h3{
+    margin: 71px 0 0 0;
+}
+.feature-wrapper p{
+    font-size: 14px;
+    line-height: 25px;
+    margin: 0px 0 50px 0px;
+}
+.blog-wrapper{
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: center;   
+}
+.blog1{
+    width: 27%;
+    float: left;
+    margin: 30px 69px 30px 23px;
+    box-shadow: 1px 1px 7px 3px grey;
+}
+.blog1:nth-child(3){
+    margin-right: 0;
+}
+.blog1:nth-child(6){
+    margin-right: 0;
+}
+.blog-wrapper :hover{
+    transform: scale(1.1);
+}
+.blog1 img{
+    margin: 21px 0 21px 0;
+}
+.blog1 h5{
+    margin: 0 auto;
+}
+.blog1 p{
+    font-size: 12px;
+    line-height: 20px;
+}
+.button{
+    text-align: center;
+    margin: 75px 0;
+}
+.button button{
+    color: red;
+    background-color: white;
+    padding: 12px 17px;
+    border: none;
+    box-shadow:1px 1px 7px 3px grey;;
+}
+.newsletter{
+    background-color: black;
+}
+.newsletter-wrapper{
+    width: 60%;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 60px 0;  
+}
+.contact{
+    width: 30%;
+    float: left;
+    
+
+}
+.contact h4{
+    color: #bd233c;
+}
+.contact ul{
+    padding-left: 0;
+}
+.contact ul li{
+    color: #555f6b;
+    list-style: none;
+}
+.contact ul li i{
+    color: #bd233c;
+}
+.contact ul li a{
+    color: #555f6b;
+    text-decoration: none;
+}
+.link{
+    width: 23%;
+    float: left;
+    
+    margin-left: 117px;
+}
+.link h4{
+    color: #bd233c;
+}
+.link ul{
+    padding-left: 0;
+}
+.link ul li{
+    list-style: none;  
+}
+.link ul li a{
+    color: #555f6b;
+    text-decoration: none;   
+}
+.link ul li a:hover{
+    color: #bd233c; ;
+}
+.letter-box{
+    width: 33%;
+    float: left;
+    
+}
+.letter h4{
+    color: #bd233c;
+}
+.letter p{
+    color: #555f6b;
+}
+.email-box .anik{
+    background-color: black;
+    padding: 8px 15px;
+    color: blanchedalmond;
+    border: 1px solid gray;
+}
+.email-box .anika{
+    background-color: #bd233c;
+    padding: 9px 23px;
+    color: blanchedalmond;
+    border: none;
+    margin-left: -4px;
+}
+.footer{
+    background-color: #535d69;
+    padding: 42px 0;
+}
+.footer p{
+    text-align: center;
+    margin: 0;
+    color: white;
+    font-size: 20px;
+}
+.a10{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
